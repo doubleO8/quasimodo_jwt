@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "quasimodo-jwt"
+version = "0.1.1"
+description = "JSON Web Token used for messaging"
+authors = ["doubleO8 <wb008@hdm-stuttgart.de>"]
+license = "GPL-2"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pycryptodomex = "^3.9.9"
+Authlib = "^0.15.2"
+coshed = "^0.11.2"
+quasimodo = "^0.6.5"
+versioneer = "^0.19"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
